@@ -105,10 +105,16 @@ class OsmShortlink {
 
 /// Represents a geographic location and zoom level decoded from a shortlink.
 class ShortlinkLocation {
+  /// The longitude of the location.
   final double longitude;
+
+  /// The latitude of the location.
   final double latitude;
+
+  /// The zoom level of the location.
   final int zoom;
 
+  /// Creates a new [ShortlinkLocation].
   const ShortlinkLocation({
     required this.longitude,
     required this.latitude,
