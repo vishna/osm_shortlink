@@ -1,6 +1,6 @@
 name: osm_shortlink
 description: A Dart implementation of the OpenStreetMap Shortlink algorithm for encoding and decoding coordinates and zoom levels.
-version: 1.0.0
+version: 0.0.1
 repository: https://github.com/vishna/osm_shortlink
 
 environment:
